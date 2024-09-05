@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navheader{
+    width: 100vw;
+    height: 100vh;
+    background: cadetblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+nav ul li{
+    display: inline-block;
+    
+
+}
+a{
+text-decoration: none;
+
+}
+nav ul li a{
+    font-weight: bold;
+    color: white;
+    padding-right: 20px;
+}
+.logo{
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: transparent;
+    color: orange;
+}
+.navbtn{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbtn:hover{
+    background: white;
+    color: orange;
+}
+.aboutme{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+.aboutme h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100px;
+}
+.aboutme h1 span{
+    color: orange;
+    font-size: 90px;
+}
+.aboutme .infotitile{
+    font-size: 22px;
+    width: 70%;
+}
+.dwncv{
+   background-color: white;
+   color: orange;
+   width: 20%;
+   padding: 10px;
+   border-radius: 10px;
+   margin-top: 25px;
+   text-align: center;
+   font-weight: 700;
+   cursor: pointer; 
+}
+.image{
+    position: absolute;
+    top: 20%;
+    left: 68%;
+}
+.image img{
+    border-radius: 80px;
+}
+.info{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(92, 199, 203);
+    display: flex;
+}
+.info img{
+    position: absolute;
+    left: 20%;
+    top: 120%;
+    border-radius: 10%;
+}
+.dets{
+    position: absolute;
+    left: 50%;
+    top: 120%;
+}
+.jobinfo{
+    font-size: 22px;width: 320px;
+    text-align: justify;
+}
+.dets h1{
+    color: orange;
+    font-size: 65px;
+}
+.jobtitle{
+    color: white;
+    font-weight: 800;
+    line-height: 50px;
+}
+.taIkbtn{
+    background-color: orange;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.servicecon{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(71, 161, 164);
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicecon h1{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    font-size: 65px;
+    margin-top: 6%;
+}
+.box{
+    height: 360px;
+    width: 300px;
+    background-color: chartreuse;
+    margin-top: 15%;
+    border-radius: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+.box img{
+    height: 60px;
+    width: 60px;
+    margin: 15px 0px;
+}
+.box h3{
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.boxbtn{
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    background:rgb(158, 187, 188);
+}
+.portfolioh1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 90px;
+    color: deeppink;
+}
+.portfoliop1{
+    text-align: center;
+    font-size:30px;
+    padding-top: 9px;
+    font-family: cursive;
+    color: deeppink;
+}
+.navbtn2{
+    padding-left: 32%;
+    padding-top: 2%;
+}
+.a{
+    border: 3px solid deeppink;
+    padding: 12px;
+    color: deeppink;
+    font-weight:600 ;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.b{
+    border: 3px solid deeppink;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 5px;
+    color: deeppink;
+    margin-left: 20px;
+}
+.c{
+    border: 3px solid deeppink;
+    padding: 12px;
+    border-radius: 5px;
+    color: deeppink;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.d{
+    border: 3px solid deeppink;
+    padding: 12px;
+    color: deeppink;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+}
+.contactme{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 226, 233);
+    padding-top: 4%;
+}
+.contactmes2{
+    position: absolute;
+    background-color: bisque;
+    padding: 10px 120px;
+    font-style: italic; 
+    width: fit-content;
+    text-align: center;
+    left: 37%;
+    border-radius: 5px;
+}
+.info2{
+    text-align: center;
+    padding: 110px;
+    font-size: 25px;
+    padding-left: 38%;
+    padding-right: 30%;
+}
+.method{
+   text-align: center;
+    
+}
+.o{
+    background-color: rgb(169, 240, 169);
+    padding-bottom: 14px 120px;
+}
+.email{
+    font-size: 13px;
+}
+.method23{
+    width: 100vw;
+    height: 100vh;
+  background-color: greenyellow;
+  
+}
+.top1{
+    text-align: center;
+    padding-top: 15px;
+}
+.ss{
+    text-align: center;
+    font-weight: 1200;
+    c
+.me2{
+    border: 5px;
+    border-radius: 6px;
+}
